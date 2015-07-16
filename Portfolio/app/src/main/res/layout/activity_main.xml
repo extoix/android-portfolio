@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="7"
+    style="@style/PortfolioLayout" >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:text="@string/text_title"
+        style="@style/PortfolioTitle" />
+
+    <Button
+        android:id="@+id/button_spotify"
+        android:text="@string/buttonText_spotify"
+        style="@style/PortfolioButton"
+        android:onClick="loadSpotify" />
+
+    <Button
+        android:id="@+id/button_scores"
+        android:text="@string/buttonText_scores"
+        style="@style/PortfolioButton"
+        android:onClick="loadScores" />
+
+    <Button
+        android:id="@+id/button_library"
+        android:text="@string/buttonText_library"
+        style="@style/PortfolioButton"
+        android:onClick="loadLibrary" />
+
+    <Button
+        android:id="@+id/button_bigger"
+        android:text="@string/buttonText_bigger"
+        style="@style/PortfolioButton"
+        android:onClick="loadBigger" />
+
+    <Button
+        android:id="@+id/button_reader"
+        android:text="@string/buttonText_reader"
+        style="@style/PortfolioButton"
+        android:onClick="loadReader" />
+
+    <Button
+        android:id="@+id/button_capstone"
+        android:text="@string/buttonText_capstone"
+        style="@style/PortfolioButton.Capstone"
+        android:onClick="loadCapstone" />
+
+</LinearLayout>

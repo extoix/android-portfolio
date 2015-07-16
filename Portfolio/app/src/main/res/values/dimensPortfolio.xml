@@ -1,0 +1,8 @@
+<resources>
+    <!-- Portfolio layout margins -->
+    <dimen name="portfolio_layout_vertical_margin">16dp</dimen>
+    <dimen name="portfolio_layout_horizontal_margin">48dp</dimen>
+
+    <!-- Portfolio vertical margin spacing -->
+    <dimen name="portfolio_vertical_spacer_margin">8dp</dimen>
+</resources>

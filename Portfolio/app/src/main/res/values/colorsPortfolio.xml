@@ -1,0 +1,6 @@
+<resources>
+    <!-- A light shade of blue-->
+    <color name="portfolio_blue_500">#2196F3</color>
+    <!-- A dark shade of blue -->
+    <color name="portfolio_blue_100">#BBDEFB</color>
+</resources>
