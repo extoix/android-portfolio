@@ -15,36 +15,36 @@
         android:id="@+id/button_spotify"
         android:text="@string/buttonText_spotify"
         style="@style/PortfolioButton"
-        android:onClick="loadSpotify" />
+        android:onClick="loadApplication" />
 
     <Button
         android:id="@+id/button_scores"
         android:text="@string/buttonText_scores"
         style="@style/PortfolioButton"
-        android:onClick="loadScores" />
+        android:onClick="loadApplication" />
 
     <Button
         android:id="@+id/button_library"
         android:text="@string/buttonText_library"
         style="@style/PortfolioButton"
-        android:onClick="loadLibrary" />
+        android:onClick="loadApplication" />
 
     <Button
         android:id="@+id/button_bigger"
         android:text="@string/buttonText_bigger"
         style="@style/PortfolioButton"
-        android:onClick="loadBigger" />
+        android:onClick="loadApplication" />
 
     <Button
         android:id="@+id/button_reader"
         android:text="@string/buttonText_reader"
         style="@style/PortfolioButton"
-        android:onClick="loadReader" />
+        android:onClick="loadApplication" />
 
     <Button
         android:id="@+id/button_capstone"
         android:text="@string/buttonText_capstone"
         style="@style/PortfolioButton.Capstone"
-        android:onClick="loadCapstone" />
+        android:onClick="loadApplication" />
 
 </LinearLayout>

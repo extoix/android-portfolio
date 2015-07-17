@@ -1,8 +1,7 @@
 package com.extoix.android.portfolio;
 
-import android.content.Context;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,41 +38,29 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void loadSpotify(View view) {
-        CharSequence message = "Load Spotify Streamer";
-        displayToast(message);
-    }
+    public void loadApplication(View view) {
 
-    public void loadScores(View view) {
-        CharSequence message = "Load Football Scores App";
-        displayToast(message);
-    }
+        switch(view.getId()){
+            case R.id.button_spotify:
+                Toast.makeText(getApplicationContext(), "Load Spotify Streamer", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button_scores:
+                Toast.makeText(getApplicationContext(), "Load Football Scores App", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button_library:
+                Toast.makeText(getApplicationContext(), "Load Library App", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button_bigger:
+                Toast.makeText(getApplicationContext(), "Load Build It Bigger App", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button_reader:
+                Toast.makeText(getApplicationContext(), "Load XYZ Reader App", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button_capstone:
+                Toast.makeText(getApplicationContext(), "Load Capstone App", Toast.LENGTH_SHORT).show();
+                break;
+        }
 
-    public void loadLibrary(View view) {
-        CharSequence message = "Load Library App";
-        displayToast(message);
-    }
-
-    public void loadBigger(View view) {
-        CharSequence message = "Load Build It Bigger App";
-        displayToast(message);
-    }
-
-    public void loadReader(View view) {
-        CharSequence message = "Load XYZ Reader App";
-        displayToast(message);
-    }
-
-    public void loadCapstone(View view) {
-        CharSequence message = "Load Capstone App";
-        displayToast(message);
-    }
-
-    private void displayToast(CharSequence message) {
-        Context context = getApplicationContext();
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, message, duration);
-        toast.show();
     }
 
 }
