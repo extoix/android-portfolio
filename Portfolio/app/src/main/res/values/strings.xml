@@ -11,4 +11,11 @@
     <string name="buttonText_bigger">Build it Bigger</string>
     <string name="buttonText_reader">XYZ Reader</string>
     <string name="buttonText_capstone">Capstone App</string>
+
+    <string name="toast_spotify">Load Spotify Streamer</string>
+    <string name="toast_scores">Load Football Scores App</string>
+    <string name="toast_library">Load Library App</string>
+    <string name="toast_bigger">Load Build It Bigger App</string>
+    <string name="toast_reader">Load XYZ Reader App</string>
+    <string name="toast_capstone">Load Capstone App</string>
 </resources>

@@ -42,22 +42,22 @@ public class MainActivity extends ActionBarActivity {
 
         switch(view.getId()){
             case R.id.button_spotify:
-                Toast.makeText(getApplicationContext(), "Load Spotify Streamer", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.toast_spotify, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_scores:
-                Toast.makeText(getApplicationContext(), "Load Football Scores App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.toast_scores, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_library:
-                Toast.makeText(getApplicationContext(), "Load Library App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.toast_library, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_bigger:
-                Toast.makeText(getApplicationContext(), "Load Build It Bigger App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.toast_bigger, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_reader:
-                Toast.makeText(getApplicationContext(), "Load XYZ Reader App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.toast_reader, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_capstone:
-                Toast.makeText(getApplicationContext(), "Load Capstone App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.toast_capstone, Toast.LENGTH_SHORT).show();
                 break;
         }
 
